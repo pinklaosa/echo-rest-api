@@ -7,10 +7,7 @@ import (
 
 func main() {
 	e := echo.New()
-
 	//call routes
 	routes.ResgisterRoutes(e)
-
-
 	e.Logger.Fatal(e.Start(":1323"))
 }
